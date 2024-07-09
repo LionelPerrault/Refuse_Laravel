@@ -761,7 +761,7 @@
                     // $('#selected-dates').html(html);
                 },
                 onClickNavigator: function(ev, instance) {
-                    // var rn = Math.floor(Math.random() * 10) % 7;
+                    var rn = Math.floor(Math.random() * 10) % 7;
                     console.log(ev);
                     instance.setAvailability(allSlots);
 
