@@ -762,7 +762,7 @@
                 },
                 onClickNavigator: function(ev, instance) {
                     // var rn = Math.floor(Math.random() * 10) % 7;
-                    // console.log(ev);
+                    console.log(ev);
                     instance.setAvailability(allSlots);
 
                     disableSlotsOutsideRange();
